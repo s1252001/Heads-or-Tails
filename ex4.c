@@ -35,7 +35,10 @@ int main(){
   }
 
   printf("Heads: %d, Tails: %d\n",head,tail);
+  
+  if(head == 2)printf("you won!\n");
 
+  else printf("you lost!\n");
 
   return 0;
 
