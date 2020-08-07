@@ -5,6 +5,16 @@
 int main(){
 
   int i,s,head = 0,tail = 0;
+<<<<<<< HEAD
+=======
+  char name[10];
+
+  printf("Who are you?\n");
+
+  scanf("%s",name);
+
+  printf("Hello, %s!\n",name);
+>>>>>>> user_name
 
   printf("Tossing a coin...\n");
 
@@ -35,10 +45,18 @@ int main(){
   }
 
   printf("Heads: %d, Tails: %d\n",head,tail);
-  
+<<<<<<< HEAD
+/*  
   if(head == 2)printf("you won!\n");
 
   else printf("you lost!\n");
+*/  
+  if(head == 2)printf("%s won!\n",name);
+
+  else printf("%s lost!\n",name);
+=======
+
+>>>>>>> user_name
 
   return 0;
 
